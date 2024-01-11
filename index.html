@@ -9,7 +9,17 @@
   </head>
   <body>
 
-    <h1>Hello World</h1>  
+
+    <form>
+      <h1>Temperature Conversion</h1>
+      <input type="number" id="textBox" value="0"><br>
+      <input type="radio" id="toFahrenheit" name="unit" >
+      <label for="toFahrenheit">Celsius ➡️ Fahrenheit  </label><br>
+      <input type="radio" id="toCelsius" name="unit" >
+      <label for="toCelsius"> Fahrenheit  ➡️ Celsius </label><br>
+      <button type="button" onclick="convert()">Convert</button>
+      <p id="result"></p>
+    </form>
 
 
 
@@ -17,6 +27,6 @@
 
 
 
-    <script src="index.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
